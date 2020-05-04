@@ -1,1 +1,2 @@
-# Typescript skeleton library
+# Jest coverage badges generator
+
