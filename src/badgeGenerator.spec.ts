@@ -26,7 +26,7 @@ const mockedGreenBadge = `
         Coverage
       </text>
       <text x="885" y="140" transform="scale(.1)" textLength="430">
-        90.0%
+        90.2%
       </text>
     </g>
   </svg>
@@ -59,7 +59,7 @@ const mockedYellowBadge = `
         Coverage
       </text>
       <text x="885" y="140" transform="scale(.1)" textLength="430">
-        60.30%
+        60.3%
       </text>
     </g>
   </svg>
@@ -91,7 +91,7 @@ const mockedBlueBadge = `
         Coverage
       </text>
       <text x="885" y="140" transform="scale(.1)" textLength="430">
-        76.30%
+        76.4%
       </text>
     </g>
   </svg>
@@ -123,7 +123,7 @@ const mockedRedBadge = `
         Coverage
       </text>
       <text x="885" y="140" transform="scale(.1)" textLength="430">
-        30.00%
+        30%
       </text>
     </g>
   </svg>

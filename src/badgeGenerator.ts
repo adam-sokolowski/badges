@@ -4,7 +4,7 @@ import { COLORS } from './colors.const';
 
 export function generateBadge(coverage: number | string): string {
 
-  const level = isNumber(coverage) ? coverage : parseInt(coverage, 10).toPrecision(4);
+  const level = isNumber(coverage) ? coverage : parseFloat(coverage);
 
   const color = level >= 90
     ? COLORS.green
