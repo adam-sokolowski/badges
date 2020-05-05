@@ -6,6 +6,9 @@ module.exports = {
   moduleFileExtensions: ['ts', 'js'],
   collectCoverage: true,
   coveragePathIgnorePatterns: ['/node_modules/'],
+  coverageReporters: [
+    'json-summary'
+  ],
   coverageThreshold: {
     global: {
       functions: 90

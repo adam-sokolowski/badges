@@ -1,1 +1,1 @@
-export * from './badgeGenerator';
+export * from './generateBadges';
