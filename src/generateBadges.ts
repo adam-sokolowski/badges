@@ -1,8 +1,15 @@
+import { argv } from 'yargs';
 import { writeFile } from 'fs';
 import { map, get, size, toString, sumBy, values, round, upperFirst } from 'lodash';
 import { generateBadge, logger, readCoverageJson } from './helpers';
 
-export function generateBadges(coveragePath = 'coverage/coverage-summary.json', badgesPath = 'coverage') {
+const source = get(argv, 'read', 'coverage/coverage-summary.json') as string;
+const destination = get(argv, 'save', 'coverage');
+
+export function generateBadges(
+  coveragePath = source, 
+  badgesPath = destination
+) {
   readCoverageJson(coveragePath)
     .then(coverage => {      
       const average = round(sumBy(values(coverage), 'pct') / size(coverage), 2);
