@@ -15,20 +15,21 @@
     "badge",
     "coverage"
   ],
-  "main": "./dist/index.js",
-  "module": "./dist/index.js",
-  "typings": "./dist/types/index.d.ts",
+  "main": "./dist/generateBadges.js",
+  "module": "./dist/generateBadges.js",
+  "typings": "./dist/generateBadges.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "bin"
   ],
   "bin": {
-    "badge": "dist/generateBadges.js"
+    "badge": "./bin/badge"
   },
   "scripts": {
     "build": "tsc --module commonjs",
     "build:watch": "yarn build -w",
     "test": "jest",
-    "badges": "yarn generateBadges",
+    "badge": "yarn badge",
     "test:watch": "jest --watchAll",
     "lint": "tsc --noEmit && eslint '*/**/*.ts' --quiet --fix",
     "release:patch": "standard-version --release-as patch",

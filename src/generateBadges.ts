@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 import { writeFile } from 'fs';
 import { map, get, size, toString, sumBy, values, round, upperFirst } from 'lodash';
 import { generateBadge, logger, readCoverageJson } from './helpers';
