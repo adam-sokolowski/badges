@@ -1,19 +1,18 @@
-import { map, get, size, toString, sumBy, values,  upperFirst } from 'lodash';
-import { generateBadge, readCoverageJson, writeBadgeFile } from './helpers';
+import { writeFile } from 'fs';
+import { map, get, size, toString, sumBy, values, round, upperFirst } from 'lodash';
+import { generateBadge, readCoverageJson } from './helpers';
 
-export function generateBadges() {
+export function generateBadges(path = 'coverage') {
   readCoverageJson()
     .then(coverage => {      
-      const average = sumBy(values(coverage), 'pct') / size(coverage);
+      const average = round(sumBy(values(coverage), 'pct') / size(coverage), 2);
       const averageBadge = generateBadge(average);
 
-      writeBadgeFile(averageBadge);
+      writeFile(`${path}/average.svg`, averageBadge, () => {});
 
       return map(coverage, (value, key) => {
         const badge = generateBadge(get(value, 'pct'), upperFirst(toString(key)));
-        writeBadgeFile(badge);
+        writeFile(`${path}/${toString(key)}.svg`, badge, () => {});
       })
     });
-  
-  return "..";
 }
