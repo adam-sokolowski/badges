@@ -24,9 +24,9 @@ yarn badges
 
 ## Use in markdown files
 
- ![Average](./coverage/average.svg)  
+ ![Average](./badges/average.svg)  
  
- ![Lines](./coverage/lines.svg)
- ![Statements](./coverage/statements.svg)
- ![Branches](./coverage/branches.svg)
- ![Functions](./coverage/functions.svg)
+ ![Lines](./badges/lines.svg)
+ ![Statements](./badges/statements.svg)
+ ![Branches](./badges/branches.svg)
+ ![Functions](./badges/functions.svg)
