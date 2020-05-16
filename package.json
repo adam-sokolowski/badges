@@ -21,10 +21,14 @@
   "files": [
     "dist"
   ],
+  "bin": {
+    "badge": "dist/generateBadges.js"
+  },
   "scripts": {
     "build": "tsc --module commonjs",
     "build:watch": "yarn build -w",
     "test": "jest",
+    "badges": "yarn generateBadges",
     "test:watch": "jest --watchAll",
     "lint": "tsc --noEmit && eslint '*/**/*.ts' --quiet --fix",
     "release:patch": "standard-version --release-as patch",
