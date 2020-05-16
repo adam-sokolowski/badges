@@ -1,6 +1,6 @@
 {
   "name": "@adso-ts/badges",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Jest coverage badges generator",
   "repository": {
     "type": "git",

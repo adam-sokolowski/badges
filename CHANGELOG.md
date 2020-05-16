@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.4](https://github.com/adam-sokolowski/badges/compare/v1.0.3...v1.0.4) (2020-05-16)
+
+
+### New features
+
+* **all:** update readme, fix tests ([6ab113c](https://github.com/adam-sokolowski/badges/commit/6ab113cc19b914afb486049ca8dfbbe67f6508ac))
+
+
+### Documentation
+
+* **readme:** add code example ([c60fd1e](https://github.com/adam-sokolowski/badges/commit/c60fd1e9b310f794712100a49bc7a979f306acf5))
+
 ### 1.0.3 (2020-05-16)
 
 
