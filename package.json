@@ -28,7 +28,7 @@
   "scripts": {
     "build": "tsc --module commonjs",
     "build:watch": "yarn build -w",
-    "test": "jest",
+    "test": "jest --coverage",
     "badges": "node node_modules/@adso-ts/badges",
     "test:watch": "jest --watchAll",
     "lint": "tsc --noEmit && eslint '*/**/*.ts' --quiet --fix",

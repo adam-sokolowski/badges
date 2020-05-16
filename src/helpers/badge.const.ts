@@ -16,14 +16,14 @@ export const BADGE_TEMPLATE = `
       <rect x="63" width="53" height="20" fill="{{color}}"/>
       <rect width="116" height="20" fill="url(#s)"/>
     </g>
-    <g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="110">
-      <text x="325" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="530">
+    <g fill="#fff" text-anchor="middle" font-family="Tahoma,Verdana,sans-serif" font-size="100">
+      <text x="300" y="140" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="500">
         {{scope}}
       </text>
-      <text x="325" y="140" transform="scale(.1)" textLength="530">
+      <text x="300" y="140" transform="scale(.1)" textLength="500">
         {{scope}}
       </text>
-      <text x="885" y="140" transform="scale(.1)" textLength="430">
+      <text x="900" y="140" transform="scale(.1)" textLength="350">
         {{level}}%
       </text>
     </g>

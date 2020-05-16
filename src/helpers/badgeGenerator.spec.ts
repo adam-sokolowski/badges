@@ -18,20 +18,19 @@ const mockedGreenBadge = `
       <rect x="63" width="53" height="20" fill="#97ca00"/>
       <rect width="116" height="20" fill="url(#s)"/>
     </g>
-    <g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="110">
-      <text x="325" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="530">
+    <g fill="#fff" text-anchor="middle" font-family="Tahoma,Verdana,sans-serif" font-size="100">
+      <text x="300" y="140" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="500">
         Average
       </text>
-      <text x="325" y="140" transform="scale(.1)" textLength="530">
+      <text x="300" y="140" transform="scale(.1)" textLength="500">
         Average
       </text>
-      <text x="885" y="140" transform="scale(.1)" textLength="430">
+      <text x="900" y="140" transform="scale(.1)" textLength="350">
         90.2%
       </text>
     </g>
   </svg>
 `;
-
 
 const mockedYellowBadge = `
   <svg
@@ -51,14 +50,14 @@ const mockedYellowBadge = `
       <rect x="63" width="53" height="20" fill="#dfb317"/>
       <rect width="116" height="20" fill="url(#s)"/>
     </g>
-    <g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="110">
-      <text x="325" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="530">
+    <g fill="#fff" text-anchor="middle" font-family="Tahoma,Verdana,sans-serif" font-size="100">
+      <text x="300" y="140" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="500">
         Average
       </text>
-      <text x="325" y="140" transform="scale(.1)" textLength="530">
+      <text x="300" y="140" transform="scale(.1)" textLength="500">
         Average
       </text>
-      <text x="885" y="140" transform="scale(.1)" textLength="430">
+      <text x="900" y="140" transform="scale(.1)" textLength="350">
         60.3%
       </text>
     </g>
@@ -83,14 +82,14 @@ const mockedBlueBadge = `
       <rect x="63" width="53" height="20" fill="#007ec6"/>
       <rect width="116" height="20" fill="url(#s)"/>
     </g>
-    <g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="110">
-      <text x="325" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="530">
+    <g fill="#fff" text-anchor="middle" font-family="Tahoma,Verdana,sans-serif" font-size="100">
+      <text x="300" y="140" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="500">
         Average
       </text>
-      <text x="325" y="140" transform="scale(.1)" textLength="530">
+      <text x="300" y="140" transform="scale(.1)" textLength="500">
         Average
       </text>
-      <text x="885" y="140" transform="scale(.1)" textLength="430">
+      <text x="900" y="140" transform="scale(.1)" textLength="350">
         76.4%
       </text>
     </g>
@@ -115,14 +114,14 @@ const mockedRedBadge = `
       <rect x="63" width="53" height="20" fill="#e05d44"/>
       <rect width="116" height="20" fill="url(#s)"/>
     </g>
-    <g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="110">
-      <text x="325" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="530">
+    <g fill="#fff" text-anchor="middle" font-family="Tahoma,Verdana,sans-serif" font-size="100">
+      <text x="300" y="140" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="500">
         Average
       </text>
-      <text x="325" y="140" transform="scale(.1)" textLength="530">
+      <text x="300" y="140" transform="scale(.1)" textLength="500">
         Average
       </text>
-      <text x="885" y="140" transform="scale(.1)" textLength="430">
+      <text x="900" y="140" transform="scale(.1)" textLength="350">
         30%
       </text>
     </g>
@@ -148,14 +147,14 @@ const mockedRedFunctionBadge = `
       <rect x="63" width="53" height="20" fill="#e05d44"/>
       <rect width="116" height="20" fill="url(#s)"/>
     </g>
-    <g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="110">
-      <text x="325" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="530">
+    <g fill="#fff" text-anchor="middle" font-family="Tahoma,Verdana,sans-serif" font-size="100">
+      <text x="300" y="140" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="500">
         Functions
       </text>
-      <text x="325" y="140" transform="scale(.1)" textLength="530">
+      <text x="300" y="140" transform="scale(.1)" textLength="500">
         Functions
       </text>
-      <text x="885" y="140" transform="scale(.1)" textLength="430">
+      <text x="900" y="140" transform="scale(.1)" textLength="350">
         30%
       </text>
     </g>
@@ -180,14 +179,14 @@ const mockedRedStatementsBadge = `
       <rect x="63" width="53" height="20" fill="#e05d44"/>
       <rect width="116" height="20" fill="url(#s)"/>
     </g>
-    <g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="110">
-      <text x="325" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="530">
+    <g fill="#fff" text-anchor="middle" font-family="Tahoma,Verdana,sans-serif" font-size="100">
+      <text x="300" y="140" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="500">
         Statements
       </text>
-      <text x="325" y="140" transform="scale(.1)" textLength="530">
+      <text x="300" y="140" transform="scale(.1)" textLength="500">
         Statements
       </text>
-      <text x="885" y="140" transform="scale(.1)" textLength="430">
+      <text x="900" y="140" transform="scale(.1)" textLength="350">
         30%
       </text>
     </g>
