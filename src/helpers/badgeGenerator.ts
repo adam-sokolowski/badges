@@ -2,7 +2,7 @@ import { isNumber, toString } from 'lodash';
 import { BADGE_TEMPLATE } from './badge.const';
 import { COLORS } from './colors.const';
 
-export function generateBadge(coverage: number | string): string {
+export function generateBadge(coverage: number | string, scope = 'Average'): string {
 
   const level = isNumber(coverage) ? coverage : parseFloat(coverage);
 
@@ -15,6 +15,7 @@ export function generateBadge(coverage: number | string): string {
         : COLORS.red;
 
   const badge = BADGE_TEMPLATE
+    .replace(/{{scope}}/g, toString(scope)) 
     .replace('{{level}}', toString(level))
     .replace('{{color}}', color);
 

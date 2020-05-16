@@ -18,10 +18,10 @@ export const BADGE_TEMPLATE = `
     </g>
     <g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="110">
       <text x="325" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="530">
-        Coverage
+        {{scope}}
       </text>
       <text x="325" y="140" transform="scale(.1)" textLength="530">
-        Coverage
+        {{scope}}
       </text>
       <text x="885" y="140" transform="scale(.1)" textLength="430">
         {{level}}%
