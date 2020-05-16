@@ -4,7 +4,7 @@
   "description": "Jest coverage badges generator",
   "repository": {
     "type": "git",
-    "url": "git@github.com:adam-sokolowski/badges.git"
+    "url": "https://github.com/adam-sokolowski/badges"
   },
   "keywords": [
     "ts",
