@@ -1,10 +1,10 @@
 {
-  "name": "@adso/ts-skeleton",
+  "name": "@adso-ts/badges",
   "version": "1.0.2",
-  "description": "Skeleton for typescript util libraries",
+  "description": "Jest coverage badges generator",
   "repository": {
     "type": "git",
-    "url": "git@github.com:adam-sokolowski/ts-skeleton.git"
+    "url": "git@github.com:adam-sokolowski/badges.git"
   },
   "keywords": [
     "ts",
@@ -12,7 +12,8 @@
     "commonjs",
     "jest",
     "utils",
-    "skeleton"
+    "badge",
+    "coverage"
   ],
   "main": "./dist/index.js",
   "module": "./dist/index.js",
