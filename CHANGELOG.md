@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.0.3 (2020-05-16)
+
+
+### Unit tests
+
+* **all:** update test expectations ([3c160a1](https://github.com/adam-sokolowski/badges/commit/3c160a18e9f590322a5998274c1c8f80da9874a2))
+
+
+### New features
+
+* **all:** add badge generator ([3d25f87](https://github.com/adam-sokolowski/badges/commit/3d25f873b8d9f7825d61b401bbb388997ae566f0))
+* **all:** add node binary shebang ([99798bb](https://github.com/adam-sokolowski/badges/commit/99798bbca39b5341e9cb92759c04a9ac481b6139))
+* **all:** read and write badge ([37adb0c](https://github.com/adam-sokolowski/badges/commit/37adb0c484e2eea97260176629790522f42ddd57))
+* **helpers:** add logger callback ([0c77e5e](https://github.com/adam-sokolowski/badges/commit/0c77e5ed9e9f0ae6799c878a691e23d18f19c1b3))
+* **packages:** update dependencies, add cli params ([da79015](https://github.com/adam-sokolowski/badges/commit/da79015ccd8049018384a748cacf1e05bd2fdcee))
+
 ### 1.0.2 (2020-03-31)
 
 
