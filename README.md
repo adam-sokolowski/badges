@@ -22,7 +22,18 @@ yarn badges
 #### shell
 `node node_modules/@adso-ts/badges`
 
-## Use in markdown files
+## Usage in markdown files
+
+```md
+ ![Average](./badges/average.svg)  
+ 
+ ![Lines](./badges/lines.svg)
+ ![Statements](./badges/statements.svg)
+ ![Branches](./badges/branches.svg)
+ ![Functions](./badges/functions.svg)
+ ```
+
+#### Results
 
  ![Average](./badges/average.svg)  
  
