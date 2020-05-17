@@ -8,24 +8,25 @@ const mockedGreenBadge = `
     height="20"
   >
     <linearGradient id="s" x2="0" y2="100%">
-      <stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/>
+      <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
+      <stop offset="1" stop-opacity=".1"/>
     </linearGradient>
     <clipPath id="r">
       <rect width="116" height="20" rx="3" fill="#fff"/>
     </clipPath>
     <g clip-path="url(#r)">
-      <rect width="63" height="20" fill="#555"/>
-      <rect x="63" width="53" height="20" fill="#97ca00"/>
+      <rect width="70" height="20" fill="#555"/>
+      <rect x="70" width="46" height="20" fill="#97ca00"/>
       <rect width="116" height="20" fill="url(#s)"/>
     </g>
-    <g fill="#fff" text-anchor="middle" font-family="Tahoma,Verdana,sans-serif" font-size="100">
-      <text x="300" y="140" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="500">
+    <g fill="#fff" font-family="Helvetica,Tahoma,Arial" font-size="110">
+      <text x="55" y="140" fill="#000" fill-opacity=".3" transform="scale(.1)">
         Average
       </text>
-      <text x="300" y="140" transform="scale(.1)" textLength="500">
+      <text x="50" y="140" transform="scale(.1)">
         Average
       </text>
-      <text x="900" y="140" transform="scale(.1)" textLength="350">
+      <text x="775" y="140" transform="scale(.1)">
         90.2%
       </text>
     </g>
@@ -40,24 +41,25 @@ const mockedYellowBadge = `
     height="20"
   >
     <linearGradient id="s" x2="0" y2="100%">
-      <stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/>
+      <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
+      <stop offset="1" stop-opacity=".1"/>
     </linearGradient>
     <clipPath id="r">
       <rect width="116" height="20" rx="3" fill="#fff"/>
     </clipPath>
     <g clip-path="url(#r)">
-      <rect width="63" height="20" fill="#555"/>
-      <rect x="63" width="53" height="20" fill="#dfb317"/>
+      <rect width="70" height="20" fill="#555"/>
+      <rect x="70" width="46" height="20" fill="#dfb317"/>
       <rect width="116" height="20" fill="url(#s)"/>
     </g>
-    <g fill="#fff" text-anchor="middle" font-family="Tahoma,Verdana,sans-serif" font-size="100">
-      <text x="300" y="140" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="500">
+    <g fill="#fff" font-family="Helvetica,Tahoma,Arial" font-size="110">
+      <text x="55" y="140" fill="#000" fill-opacity=".3" transform="scale(.1)">
         Average
       </text>
-      <text x="300" y="140" transform="scale(.1)" textLength="500">
+      <text x="50" y="140" transform="scale(.1)">
         Average
       </text>
-      <text x="900" y="140" transform="scale(.1)" textLength="350">
+      <text x="775" y="140" transform="scale(.1)">
         60.3%
       </text>
     </g>
@@ -72,24 +74,25 @@ const mockedBlueBadge = `
     height="20"
   >
     <linearGradient id="s" x2="0" y2="100%">
-      <stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/>
+      <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
+      <stop offset="1" stop-opacity=".1"/>
     </linearGradient>
     <clipPath id="r">
       <rect width="116" height="20" rx="3" fill="#fff"/>
     </clipPath>
     <g clip-path="url(#r)">
-      <rect width="63" height="20" fill="#555"/>
-      <rect x="63" width="53" height="20" fill="#007ec6"/>
+      <rect width="70" height="20" fill="#555"/>
+      <rect x="70" width="46" height="20" fill="#007ec6"/>
       <rect width="116" height="20" fill="url(#s)"/>
     </g>
-    <g fill="#fff" text-anchor="middle" font-family="Tahoma,Verdana,sans-serif" font-size="100">
-      <text x="300" y="140" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="500">
+    <g fill="#fff" font-family="Helvetica,Tahoma,Arial" font-size="110">
+      <text x="55" y="140" fill="#000" fill-opacity=".3" transform="scale(.1)">
         Average
       </text>
-      <text x="300" y="140" transform="scale(.1)" textLength="500">
+      <text x="50" y="140" transform="scale(.1)">
         Average
       </text>
-      <text x="900" y="140" transform="scale(.1)" textLength="350">
+      <text x="775" y="140" transform="scale(.1)">
         76.4%
       </text>
     </g>
@@ -104,24 +107,25 @@ const mockedRedBadge = `
     height="20"
   >
     <linearGradient id="s" x2="0" y2="100%">
-      <stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/>
+      <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
+      <stop offset="1" stop-opacity=".1"/>
     </linearGradient>
     <clipPath id="r">
       <rect width="116" height="20" rx="3" fill="#fff"/>
     </clipPath>
     <g clip-path="url(#r)">
-      <rect width="63" height="20" fill="#555"/>
-      <rect x="63" width="53" height="20" fill="#e05d44"/>
+      <rect width="70" height="20" fill="#555"/>
+      <rect x="70" width="46" height="20" fill="#e05d44"/>
       <rect width="116" height="20" fill="url(#s)"/>
     </g>
-    <g fill="#fff" text-anchor="middle" font-family="Tahoma,Verdana,sans-serif" font-size="100">
-      <text x="300" y="140" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="500">
+    <g fill="#fff" font-family="Helvetica,Tahoma,Arial" font-size="110">
+      <text x="55" y="140" fill="#000" fill-opacity=".3" transform="scale(.1)">
         Average
       </text>
-      <text x="300" y="140" transform="scale(.1)" textLength="500">
+      <text x="50" y="140" transform="scale(.1)">
         Average
       </text>
-      <text x="900" y="140" transform="scale(.1)" textLength="350">
+      <text x="775" y="140" transform="scale(.1)">
         30%
       </text>
     </g>
@@ -137,24 +141,25 @@ const mockedRedFunctionBadge = `
     height="20"
   >
     <linearGradient id="s" x2="0" y2="100%">
-      <stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/>
+      <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
+      <stop offset="1" stop-opacity=".1"/>
     </linearGradient>
     <clipPath id="r">
       <rect width="116" height="20" rx="3" fill="#fff"/>
     </clipPath>
     <g clip-path="url(#r)">
-      <rect width="63" height="20" fill="#555"/>
-      <rect x="63" width="53" height="20" fill="#e05d44"/>
+      <rect width="70" height="20" fill="#555"/>
+      <rect x="70" width="46" height="20" fill="#e05d44"/>
       <rect width="116" height="20" fill="url(#s)"/>
     </g>
-    <g fill="#fff" text-anchor="middle" font-family="Tahoma,Verdana,sans-serif" font-size="100">
-      <text x="300" y="140" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="500">
+    <g fill="#fff" font-family="Helvetica,Tahoma,Arial" font-size="110">
+      <text x="55" y="140" fill="#000" fill-opacity=".3" transform="scale(.1)">
         Functions
       </text>
-      <text x="300" y="140" transform="scale(.1)" textLength="500">
+      <text x="50" y="140" transform="scale(.1)">
         Functions
       </text>
-      <text x="900" y="140" transform="scale(.1)" textLength="350">
+      <text x="775" y="140" transform="scale(.1)">
         30%
       </text>
     </g>
@@ -169,24 +174,25 @@ const mockedRedStatementsBadge = `
     height="20"
   >
     <linearGradient id="s" x2="0" y2="100%">
-      <stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/>
+      <stop offset="0" stop-color="#bbb" stop-opacity=".1"/>
+      <stop offset="1" stop-opacity=".1"/>
     </linearGradient>
     <clipPath id="r">
       <rect width="116" height="20" rx="3" fill="#fff"/>
     </clipPath>
     <g clip-path="url(#r)">
-      <rect width="63" height="20" fill="#555"/>
-      <rect x="63" width="53" height="20" fill="#e05d44"/>
+      <rect width="70" height="20" fill="#555"/>
+      <rect x="70" width="46" height="20" fill="#e05d44"/>
       <rect width="116" height="20" fill="url(#s)"/>
     </g>
-    <g fill="#fff" text-anchor="middle" font-family="Tahoma,Verdana,sans-serif" font-size="100">
-      <text x="300" y="140" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="500">
+    <g fill="#fff" font-family="Helvetica,Tahoma,Arial" font-size="110">
+      <text x="55" y="140" fill="#000" fill-opacity=".3" transform="scale(.1)">
         Statements
       </text>
-      <text x="300" y="140" transform="scale(.1)" textLength="500">
+      <text x="50" y="140" transform="scale(.1)">
         Statements
       </text>
-      <text x="900" y="140" transform="scale(.1)" textLength="350">
+      <text x="775" y="140" transform="scale(.1)">
         30%
       </text>
     </g>

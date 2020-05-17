@@ -8,7 +8,7 @@
 #### yarn script
 ```
 "scripts": {
-    "badges": "node node_modules/@adso-ts/badges"
+    "badges": "node node_modules/@adso-ts/badges" --read="custom path to coverage-summary.json" --save="custom badges folder"
 }
 ```
 And in the console
@@ -16,8 +16,8 @@ And in the console
 yarn badges
 ```
 ## Parameters (optional)
-- `read` : custom path to coverage summary file (`coverage-summary.json`)
-- `save` : path to save badge svg files
+- `read` : alternative location of `Jest` coverage summary file (`coverage-summary.json`)
+- `save` : custom save badge svg files
 
 #### shell
 `node node_modules/@adso-ts/badges`
@@ -41,3 +41,7 @@ yarn badges
  ![Statements](./badges/statements.svg)
  ![Branches](./badges/branches.svg)
  ![Functions](./badges/functions.svg)
+
+## TODO list
+- enable binary command for the package
+- extend to create repository status badges
