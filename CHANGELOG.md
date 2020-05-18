@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.7](https://github.com/adam-sokolowski/badges/compare/v1.0.6...v1.0.7) (2020-05-18)
+
+
+### Documentation
+
+* **all:** update readme ([7d0fd38](https://github.com/adam-sokolowski/badges/commit/7d0fd38390c12a2f56e023340cb52b7836d6e7b7))
+
+
+### Bug fixes
+
+* **all:** update yarn script and basges template ([aa9df46](https://github.com/adam-sokolowski/badges/commit/aa9df462e33b0aed2c52ba1939eb987130b91846))
+
 ### [1.0.6](https://github.com/adam-sokolowski/badges/compare/v1.0.5...v1.0.6) (2020-05-17)
 
 ### [1.0.5](https://github.com/adam-sokolowski/badges/compare/v1.0.4...v1.0.5) (2020-05-17)
