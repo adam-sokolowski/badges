@@ -24,7 +24,7 @@
     "badges"
   ],
   "bin": {
-    "badge": "./bin/badge"
+    "coverage-badges": "./bin/coverage-badges"
   },
   "scripts": {
     "build": "tsc --module commonjs",

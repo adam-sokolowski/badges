@@ -6,13 +6,13 @@ import { generateBadge, logger, readCoverageJson } from './helpers';
 const source = get(argv, 'read', 'coverage/coverage-summary.json') as string;
 const destination = get(argv, 'save', 'coverage') as string;
 
-if (!existsSync(destination)){
+if (!existsSync(destination)) {
   mkdirSync(destination);
 }
 
-function generateBadges(coveragePath:string , badgesPath: string) {
+function coverageBadges(coveragePath: string, badgesPath: string) {
   readCoverageJson(coveragePath)
-    .then(coverage => {      
+    .then(coverage => {
       const average = round(sumBy(values(coverage), 'pct') / size(coverage), 2);
       const averageBadge = generateBadge(average);
 
@@ -25,4 +25,4 @@ function generateBadges(coveragePath:string , badgesPath: string) {
     });
 }
 
-generateBadges(source, destination);
+coverageBadges(source, destination);

@@ -26,7 +26,7 @@ const mockedGreenBadge = `
       <text x="50" y="140" transform="scale(.1)">
         Average
       </text>
-      <text x="775" y="140" transform="scale(.1)">
+      <text x="750" y="140" transform="scale(.1)">
         90.2%
       </text>
     </g>
@@ -59,7 +59,7 @@ const mockedYellowBadge = `
       <text x="50" y="140" transform="scale(.1)">
         Average
       </text>
-      <text x="775" y="140" transform="scale(.1)">
+      <text x="750" y="140" transform="scale(.1)">
         60.3%
       </text>
     </g>
@@ -92,7 +92,7 @@ const mockedBlueBadge = `
       <text x="50" y="140" transform="scale(.1)">
         Average
       </text>
-      <text x="775" y="140" transform="scale(.1)">
+      <text x="750" y="140" transform="scale(.1)">
         76.4%
       </text>
     </g>
@@ -125,7 +125,7 @@ const mockedRedBadge = `
       <text x="50" y="140" transform="scale(.1)">
         Average
       </text>
-      <text x="775" y="140" transform="scale(.1)">
+      <text x="750" y="140" transform="scale(.1)">
         30%
       </text>
     </g>
@@ -159,7 +159,7 @@ const mockedRedFunctionBadge = `
       <text x="50" y="140" transform="scale(.1)">
         Functions
       </text>
-      <text x="775" y="140" transform="scale(.1)">
+      <text x="750" y="140" transform="scale(.1)">
         30%
       </text>
     </g>
@@ -192,7 +192,7 @@ const mockedRedStatementsBadge = `
       <text x="50" y="140" transform="scale(.1)">
         Statements
       </text>
-      <text x="775" y="140" transform="scale(.1)">
+      <text x="750" y="140" transform="scale(.1)">
         30%
       </text>
     </g>

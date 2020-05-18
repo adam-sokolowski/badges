@@ -24,7 +24,7 @@ export const BADGE_TEMPLATE = `
       <text x="50" y="140" transform="scale(.1)">
         {{scope}}
       </text>
-      <text x="775" y="140" transform="scale(.1)">
+      <text x="750" y="140" transform="scale(.1)">
         {{level}}%
       </text>
     </g>
