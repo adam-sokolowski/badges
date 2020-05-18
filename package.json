@@ -30,10 +30,10 @@
     "build": "tsc --module commonjs",
     "build:watch": "yarn build -w",
     "test": "jest --coverage",
-    "badges": "node node_modules/@adso-ts/badges --save=badges",
+    "coverage-badges": "yarn node ./bin/coverage-badges --save=badges",
     "test:watch": "jest --watchAll",
     "lint": "tsc --noEmit && eslint '*/**/*.ts' --quiet --fix",
-    "release:patch": "yarn badges && standard-version --release-as patch",
+    "release:patch": "yarn coverage-badges && standard-version --release-as patch",
     "release:minor": "standard-version --release-as minor",
     "reset:githooks": "rm -rf ./.git/hooks/* && rm -rf node_modules/husky && yarn install --check-files"
   },
