@@ -1,14 +1,27 @@
 # Jest coverage badges generator
+Module installs a binary command `coverage-badges` in your repository
 
 ## Installation:
 
 > `yarn add @adso-ts/badges`
 
+## Dependencies
+Jest coverage report must be saved as `coverage-summary.json`, thus requires the following entries in `jest.config.js` are necessary:
+
+```javascript
+module.exports = {
+  ...
+    collectCoverage: true,
+    coverageReporters: ['json-summary'],
+  ...
+};  
+```
+
 ## Generate badges:
 #### yarn script
-```
+```javascript
 "scripts": {
-    "badges": "coverage-badges --read=custom path to coverage-summary.json --save=custom badges folder"
+    "badges": "coverage-badges --read=custom_path_to_coverage-summary.json --save=custom_badges_folder"
 }
 ```
 And in the console
