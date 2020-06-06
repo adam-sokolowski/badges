@@ -1,6 +1,5 @@
 # Repository badges generator
 For a SVG repository badges.
-
 Module installs the following binary commands:
 > `coverage-badges` - Jest test coverage badges from `coverage-summary.json` (options: **--read**, **--save**)
 
@@ -24,6 +23,7 @@ module.exports = {
   ...
 };
 ```
+
 ### For `custom-badges`
 A config file must be present and pointed to when executing `custom-badges` command.
 ```json
@@ -63,10 +63,13 @@ A config file must be present and pointed to when executing `custom-badges` comm
 
 #### shell
 `node node_modules/@adso-ts/badges`
+
 or
-`yarn coverage-badges`
-`yarn custom-badges`
-`yarn version-badge`
+> yarn coverage-badges
+
+> yarn custom-badges
+
+> yarn version-badge
 
 ## Usage in markdown files
 ### Jest test coverage
@@ -88,14 +91,14 @@ or
 
  ### Custom/static badges examples
 ```md
- ![npm](./badges/npm.svg) 
- ![dependencies](./badges/dependencies.svg) 
+ ![npm](./badges/npm.svg)
+ ![dependencies](./badges/dependencies.svg)
 ```
 
 
 #### Results
 ##### Test coverage
- ![Average](./badges/average.svg)  
+ ![Average](./badges/average.svg)
  
  ![Lines](./badges/lines.svg)
  ![Statements](./badges/statements.svg)
@@ -103,8 +106,8 @@ or
  ![Functions](./badges/functions.svg)
 
 ##### Version
- ![Version](./badges/version.svg) 
+ ![Version](./badges/version.svg)
 
 ##### Custom/static badges examples
- ![npm](./badges/npm.svg) 
- ![dependencies](./badges/dependencies.svg) 
+ ![npm](./badges/npm.svg)
+ ![dependencies](./badges/dependencies.svg)
