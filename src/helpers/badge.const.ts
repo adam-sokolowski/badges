@@ -25,7 +25,7 @@ export const BADGE_TEMPLATE = `
         {{label}}
       </text>
       <text x="700" y="140" transform="scale(.1)">
-        {{level}}
+        {{value}}
       </text>
     </g>
   </svg>
