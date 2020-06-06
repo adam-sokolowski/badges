@@ -14,7 +14,7 @@ export const BADGE_TEMPLATE = `
     </clipPath>
     <g clip-path="url(#r)">
       <rect width="65" height="20" fill="#555"/>
-      <rect x="65" width="46" height="20" fill="{{color}}"/>
+      <rect x="65" width="45" height="20" fill="{{color}}"/>
       <rect width="110" height="20" fill="url(#s)"/>
     </g>
     <g fill="#fff" font-family="Helvetica,Tahoma,Arial" font-size="110">

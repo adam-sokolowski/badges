@@ -17,7 +17,7 @@ const mockedGreenBadge = `
     </clipPath>
     <g clip-path="url(#r)">
       <rect width="65" height="20" fill="#555"/>
-      <rect x="65" width="46" height="20" fill="#97ca00"/>
+      <rect x="65" width="45" height="20" fill="#97ca00"/>
       <rect width="110" height="20" fill="url(#s)"/>
     </g>
     <g fill="#fff" font-family="Helvetica,Tahoma,Arial" font-size="110">
@@ -50,7 +50,7 @@ const mockedYellowBadge = `
     </clipPath>
     <g clip-path="url(#r)">
       <rect width="65" height="20" fill="#555"/>
-      <rect x="65" width="46" height="20" fill="#dfb317"/>
+      <rect x="65" width="45" height="20" fill="#dfb317"/>
       <rect width="110" height="20" fill="url(#s)"/>
     </g>
     <g fill="#fff" font-family="Helvetica,Tahoma,Arial" font-size="110">
@@ -83,7 +83,7 @@ const mockedBlueBadge = `
     </clipPath>
     <g clip-path="url(#r)">
       <rect width="65" height="20" fill="#555"/>
-      <rect x="65" width="46" height="20" fill="#007ec6"/>
+      <rect x="65" width="45" height="20" fill="#007ec6"/>
       <rect width="110" height="20" fill="url(#s)"/>
     </g>
     <g fill="#fff" font-family="Helvetica,Tahoma,Arial" font-size="110">
@@ -116,7 +116,7 @@ const mockedRedBadge = `
     </clipPath>
     <g clip-path="url(#r)">
       <rect width="65" height="20" fill="#555"/>
-      <rect x="65" width="46" height="20" fill="#e05d44"/>
+      <rect x="65" width="45" height="20" fill="#e05d44"/>
       <rect width="110" height="20" fill="url(#s)"/>
     </g>
     <g fill="#fff" font-family="Helvetica,Tahoma,Arial" font-size="110">
@@ -150,7 +150,7 @@ const mockedRedFunctionBadge = `
     </clipPath>
     <g clip-path="url(#r)">
       <rect width="65" height="20" fill="#555"/>
-      <rect x="65" width="46" height="20" fill="#e05d44"/>
+      <rect x="65" width="45" height="20" fill="#e05d44"/>
       <rect width="110" height="20" fill="url(#s)"/>
     </g>
     <g fill="#fff" font-family="Helvetica,Tahoma,Arial" font-size="110">
@@ -183,7 +183,7 @@ const mockedRedStatementsBadge = `
     </clipPath>
     <g clip-path="url(#r)">
       <rect width="65" height="20" fill="#555"/>
-      <rect x="65" width="46" height="20" fill="#e05d44"/>
+      <rect x="65" width="45" height="20" fill="#e05d44"/>
       <rect width="110" height="20" fill="url(#s)"/>
     </g>
     <g fill="#fff" font-family="Helvetica,Tahoma,Arial" font-size="110">
