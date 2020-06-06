@@ -1,22 +1,12 @@
-import { isNumber, toString } from 'lodash';
+import { toString } from 'lodash';
 import { BADGE_TEMPLATE } from './badge.const';
 import { COLORS } from './colors.const';
 
-export function generateBadge(coverage: number | string, scope = 'Average'): string {
-
-  const level = isNumber(coverage) ? coverage : parseFloat(coverage);
-
-  const color = level >= 90
-    ? COLORS.green
-    : level >= 70
-      ? COLORS.blue
-      : level >= 50
-        ? COLORS.yellow
-        : COLORS.red;
+export function generateBadge(coverage: number | string, color = COLORS.red, label = 'Average'): string {
 
   const badge = BADGE_TEMPLATE
-    .replace(/{{scope}}/g, toString(scope)) 
-    .replace('{{level}}', toString(level))
+    .replace(/{{label}}/g, toString(label)) 
+    .replace('{{level}}', toString(coverage) )
     .replace('{{color}}', color);
 
   return badge;

@@ -19,13 +19,13 @@ export const BADGE_TEMPLATE = `
     </g>
     <g fill="#fff" font-family="Helvetica,Tahoma,Arial" font-size="110">
       <text x="55" y="140" fill="#000" fill-opacity=".3" transform="scale(.1)">
-        {{scope}}
+        {{label}}
       </text>
       <text x="50" y="140" transform="scale(.1)">
-        {{scope}}
+        {{label}}
       </text>
       <text x="700" y="140" transform="scale(.1)">
-        {{level}}%
+        {{level}}
       </text>
     </g>
   </svg>

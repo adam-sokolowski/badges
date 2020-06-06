@@ -1,4 +1,5 @@
 import { generateBadge } from './badgeGenerator';
+import { COLORS } from './colors.const';
 
 const mockedGreenBadge = `
   <svg
@@ -202,43 +203,39 @@ const mockedRedStatementsBadge = `
 describe('Given an example function', () => {
   describe('When provided with coverage of 90%', () => {
     it('Then it returns green badge', () => {
-      expect(generateBadge(90.2)).toBe(mockedGreenBadge);
-      expect(generateBadge('90.2')).toBe(mockedGreenBadge);
+      expect(generateBadge('90.2%', COLORS.green)).toBe(mockedGreenBadge);
     });
   });
 
   describe('When provided with coverage of 70%', () => {
     it('Then it returns blue badge', () => {
-      expect(generateBadge(76.4)).toBe(mockedBlueBadge);
-      expect(generateBadge('76.4')).toBe(mockedBlueBadge);
+      expect(generateBadge('76.4%', COLORS.blue)).toBe(mockedBlueBadge);
     });
   });
 
   describe('When provided with coverage of 50%', () => {
     it('Then it returns yellow badge', () => {
-      expect(generateBadge(60.3)).toBe(mockedYellowBadge);
-      expect(generateBadge('60.3')).toBe(mockedYellowBadge);
+      expect(generateBadge('60.3%', COLORS.yellow)).toBe(mockedYellowBadge);
     });
   });
 
   describe('When provided with coverage of 30%', () => {
     it('Then it returns green badge', () => {
-      expect(generateBadge(30)).toBe(mockedRedBadge);
+      expect(generateBadge('30%', COLORS.red)).toBe(mockedRedBadge);
     });
   });
 
   describe('When provided with coverage of 30%', () => {
     describe('And functions as a scope', () => {
       it('Then it returns green badge', () => {
-        expect(generateBadge(30, 'Functions')).toBe(mockedRedFunctionBadge);
+        expect(generateBadge('30%', COLORS.red, 'Functions')).toBe(mockedRedFunctionBadge);
       });
     });
 
     describe('And statements as a scope', () => {
       it('Then it returns green badge', () => {
-        expect(generateBadge(30, 'Statements')).toBe(mockedRedStatementsBadge);
+        expect(generateBadge('30%', COLORS.red, 'Statements')).toBe(mockedRedStatementsBadge);
       });
     });
   });
-
 });
