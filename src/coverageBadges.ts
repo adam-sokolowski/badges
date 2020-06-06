@@ -11,7 +11,7 @@ if (!existsSync(destination)) {
   mkdirSync(destination);
 }
 
-const color = (coverage:number) =>  coverage >= 90
+const color = (coverage: number) =>  coverage >= 90
     ? COLORS.green
     : coverage >= 70
       ? COLORS.blue
