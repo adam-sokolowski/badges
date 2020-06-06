@@ -1,7 +1,7 @@
 import { argv } from 'yargs';
 import { writeFile, existsSync, mkdirSync } from 'fs';
 import { map, get, size, toString, sumBy, values, round, upperFirst } from 'lodash';
-import { generateBadge, logger, readCoverageJson } from './helpers';
+import { generateBadge, logger, readJson } from './helpers';
 import { COLORS } from './helpers/colors.const';
 
 const source = get(argv, 'read', 'coverage/coverage-summary.json') as string;
@@ -19,9 +19,8 @@ const color = (coverage:number) =>  coverage >= 90
         ? COLORS.yellow
         : COLORS.red;
 
-
 function coverageBadges(coveragePath: string, badgesPath: string) {
-  readCoverageJson(coveragePath)
+  readJson(coveragePath, 'total')
     .then(coverage => {
       const average = round(sumBy(values(coverage), 'pct') / size(coverage), 2);
       const averageBadge = generateBadge(
