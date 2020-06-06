@@ -11,13 +11,14 @@ if (!existsSync(destination)) {
   mkdirSync(destination);
 }
 
-function versionBadge(versionPath: string, badgePath: string) {
+function versionBadge(versionPath: string, badgePath: string, ) {
   readJson(versionPath, 'version')
     .then(packageVersion => {
       const versionBadge = generateBadge(
         `${packageVersion}`,
         COLORS.blue,
-        'Version'
+        'Version',
+        true
       );
 
       writeFile(`${badgePath}/version.svg`, versionBadge, logger);
