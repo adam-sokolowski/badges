@@ -20,7 +20,7 @@ const mockedGreenBadge = `
       <rect x="65" width="45" height="20" fill="#97ca00"/>
       <rect width="110" height="20" fill="url(#s)"/>
     </g>
-    <g fill="#fff" font-family="Helvetica,Tahoma,Arial" font-size="110">
+    <g fill="#fff" font-family="Tahoma,Arial" font-size="110">
       <text x="55" y="140" fill="#000" fill-opacity=".3" transform="scale(.1)">
         Average
       </text>
@@ -53,7 +53,7 @@ const mockedYellowBadge = `
       <rect x="65" width="45" height="20" fill="#dfb317"/>
       <rect width="110" height="20" fill="url(#s)"/>
     </g>
-    <g fill="#fff" font-family="Helvetica,Tahoma,Arial" font-size="110">
+    <g fill="#fff" font-family="Tahoma,Arial" font-size="110">
       <text x="55" y="140" fill="#000" fill-opacity=".3" transform="scale(.1)">
         Average
       </text>
@@ -86,7 +86,7 @@ const mockedBlueBadge = `
       <rect x="65" width="45" height="20" fill="#007ec6"/>
       <rect width="110" height="20" fill="url(#s)"/>
     </g>
-    <g fill="#fff" font-family="Helvetica,Tahoma,Arial" font-size="110">
+    <g fill="#fff" font-family="Tahoma,Arial" font-size="110">
       <text x="55" y="140" fill="#000" fill-opacity=".3" transform="scale(.1)">
         Average
       </text>
@@ -119,7 +119,7 @@ const mockedRedBadge = `
       <rect x="65" width="45" height="20" fill="#e05d44"/>
       <rect width="110" height="20" fill="url(#s)"/>
     </g>
-    <g fill="#fff" font-family="Helvetica,Tahoma,Arial" font-size="110">
+    <g fill="#fff" font-family="Tahoma,Arial" font-size="110">
       <text x="55" y="140" fill="#000" fill-opacity=".3" transform="scale(.1)">
         Average
       </text>
@@ -153,7 +153,7 @@ const mockedRedFunctionBadge = `
       <rect x="65" width="45" height="20" fill="#e05d44"/>
       <rect width="110" height="20" fill="url(#s)"/>
     </g>
-    <g fill="#fff" font-family="Helvetica,Tahoma,Arial" font-size="110">
+    <g fill="#fff" font-family="Tahoma,Arial" font-size="110">
       <text x="55" y="140" fill="#000" fill-opacity=".3" transform="scale(.1)">
         Functions
       </text>
@@ -186,7 +186,7 @@ const mockedRedStatementsBadge = `
       <rect x="65" width="45" height="20" fill="#e05d44"/>
       <rect width="110" height="20" fill="url(#s)"/>
     </g>
-    <g fill="#fff" font-family="Helvetica,Tahoma,Arial" font-size="110">
+    <g fill="#fff" font-family="Tahoma,Arial" font-size="110">
       <text x="55" y="140" fill="#000" fill-opacity=".3" transform="scale(.1)">
         Statements
       </text>
