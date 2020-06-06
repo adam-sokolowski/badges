@@ -4,7 +4,7 @@ const mockedGreenBadge = `
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
-    width="116"
+    width="110"
     height="20"
   >
     <linearGradient id="s" x2="0" y2="100%">
@@ -12,12 +12,12 @@ const mockedGreenBadge = `
       <stop offset="1" stop-opacity=".1"/>
     </linearGradient>
     <clipPath id="r">
-      <rect width="116" height="20" rx="3" fill="#fff"/>
+      <rect width="110" height="20" rx="3" fill="#fff"/>
     </clipPath>
     <g clip-path="url(#r)">
-      <rect width="70" height="20" fill="#555"/>
-      <rect x="70" width="46" height="20" fill="#97ca00"/>
-      <rect width="116" height="20" fill="url(#s)"/>
+      <rect width="65" height="20" fill="#555"/>
+      <rect x="65" width="46" height="20" fill="#97ca00"/>
+      <rect width="110" height="20" fill="url(#s)"/>
     </g>
     <g fill="#fff" font-family="Helvetica,Tahoma,Arial" font-size="110">
       <text x="55" y="140" fill="#000" fill-opacity=".3" transform="scale(.1)">
@@ -26,7 +26,7 @@ const mockedGreenBadge = `
       <text x="50" y="140" transform="scale(.1)">
         Average
       </text>
-      <text x="750" y="140" transform="scale(.1)">
+      <text x="700" y="140" transform="scale(.1)">
         90.2%
       </text>
     </g>
@@ -37,7 +37,7 @@ const mockedYellowBadge = `
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
-    width="116"
+    width="110"
     height="20"
   >
     <linearGradient id="s" x2="0" y2="100%">
@@ -45,12 +45,12 @@ const mockedYellowBadge = `
       <stop offset="1" stop-opacity=".1"/>
     </linearGradient>
     <clipPath id="r">
-      <rect width="116" height="20" rx="3" fill="#fff"/>
+      <rect width="110" height="20" rx="3" fill="#fff"/>
     </clipPath>
     <g clip-path="url(#r)">
-      <rect width="70" height="20" fill="#555"/>
-      <rect x="70" width="46" height="20" fill="#dfb317"/>
-      <rect width="116" height="20" fill="url(#s)"/>
+      <rect width="65" height="20" fill="#555"/>
+      <rect x="65" width="46" height="20" fill="#dfb317"/>
+      <rect width="110" height="20" fill="url(#s)"/>
     </g>
     <g fill="#fff" font-family="Helvetica,Tahoma,Arial" font-size="110">
       <text x="55" y="140" fill="#000" fill-opacity=".3" transform="scale(.1)">
@@ -59,7 +59,7 @@ const mockedYellowBadge = `
       <text x="50" y="140" transform="scale(.1)">
         Average
       </text>
-      <text x="750" y="140" transform="scale(.1)">
+      <text x="700" y="140" transform="scale(.1)">
         60.3%
       </text>
     </g>
@@ -70,7 +70,7 @@ const mockedBlueBadge = `
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
-    width="116"
+    width="110"
     height="20"
   >
     <linearGradient id="s" x2="0" y2="100%">
@@ -78,12 +78,12 @@ const mockedBlueBadge = `
       <stop offset="1" stop-opacity=".1"/>
     </linearGradient>
     <clipPath id="r">
-      <rect width="116" height="20" rx="3" fill="#fff"/>
+      <rect width="110" height="20" rx="3" fill="#fff"/>
     </clipPath>
     <g clip-path="url(#r)">
-      <rect width="70" height="20" fill="#555"/>
-      <rect x="70" width="46" height="20" fill="#007ec6"/>
-      <rect width="116" height="20" fill="url(#s)"/>
+      <rect width="65" height="20" fill="#555"/>
+      <rect x="65" width="46" height="20" fill="#007ec6"/>
+      <rect width="110" height="20" fill="url(#s)"/>
     </g>
     <g fill="#fff" font-family="Helvetica,Tahoma,Arial" font-size="110">
       <text x="55" y="140" fill="#000" fill-opacity=".3" transform="scale(.1)">
@@ -92,7 +92,7 @@ const mockedBlueBadge = `
       <text x="50" y="140" transform="scale(.1)">
         Average
       </text>
-      <text x="750" y="140" transform="scale(.1)">
+      <text x="700" y="140" transform="scale(.1)">
         76.4%
       </text>
     </g>
@@ -103,7 +103,7 @@ const mockedRedBadge = `
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
-    width="116"
+    width="110"
     height="20"
   >
     <linearGradient id="s" x2="0" y2="100%">
@@ -111,12 +111,12 @@ const mockedRedBadge = `
       <stop offset="1" stop-opacity=".1"/>
     </linearGradient>
     <clipPath id="r">
-      <rect width="116" height="20" rx="3" fill="#fff"/>
+      <rect width="110" height="20" rx="3" fill="#fff"/>
     </clipPath>
     <g clip-path="url(#r)">
-      <rect width="70" height="20" fill="#555"/>
-      <rect x="70" width="46" height="20" fill="#e05d44"/>
-      <rect width="116" height="20" fill="url(#s)"/>
+      <rect width="65" height="20" fill="#555"/>
+      <rect x="65" width="46" height="20" fill="#e05d44"/>
+      <rect width="110" height="20" fill="url(#s)"/>
     </g>
     <g fill="#fff" font-family="Helvetica,Tahoma,Arial" font-size="110">
       <text x="55" y="140" fill="#000" fill-opacity=".3" transform="scale(.1)">
@@ -125,7 +125,7 @@ const mockedRedBadge = `
       <text x="50" y="140" transform="scale(.1)">
         Average
       </text>
-      <text x="750" y="140" transform="scale(.1)">
+      <text x="700" y="140" transform="scale(.1)">
         30%
       </text>
     </g>
@@ -137,7 +137,7 @@ const mockedRedFunctionBadge = `
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
-    width="116"
+    width="110"
     height="20"
   >
     <linearGradient id="s" x2="0" y2="100%">
@@ -145,12 +145,12 @@ const mockedRedFunctionBadge = `
       <stop offset="1" stop-opacity=".1"/>
     </linearGradient>
     <clipPath id="r">
-      <rect width="116" height="20" rx="3" fill="#fff"/>
+      <rect width="110" height="20" rx="3" fill="#fff"/>
     </clipPath>
     <g clip-path="url(#r)">
-      <rect width="70" height="20" fill="#555"/>
-      <rect x="70" width="46" height="20" fill="#e05d44"/>
-      <rect width="116" height="20" fill="url(#s)"/>
+      <rect width="65" height="20" fill="#555"/>
+      <rect x="65" width="46" height="20" fill="#e05d44"/>
+      <rect width="110" height="20" fill="url(#s)"/>
     </g>
     <g fill="#fff" font-family="Helvetica,Tahoma,Arial" font-size="110">
       <text x="55" y="140" fill="#000" fill-opacity=".3" transform="scale(.1)">
@@ -159,7 +159,7 @@ const mockedRedFunctionBadge = `
       <text x="50" y="140" transform="scale(.1)">
         Functions
       </text>
-      <text x="750" y="140" transform="scale(.1)">
+      <text x="700" y="140" transform="scale(.1)">
         30%
       </text>
     </g>
@@ -170,7 +170,7 @@ const mockedRedStatementsBadge = `
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
-    width="116"
+    width="110"
     height="20"
   >
     <linearGradient id="s" x2="0" y2="100%">
@@ -178,12 +178,12 @@ const mockedRedStatementsBadge = `
       <stop offset="1" stop-opacity=".1"/>
     </linearGradient>
     <clipPath id="r">
-      <rect width="116" height="20" rx="3" fill="#fff"/>
+      <rect width="110" height="20" rx="3" fill="#fff"/>
     </clipPath>
     <g clip-path="url(#r)">
-      <rect width="70" height="20" fill="#555"/>
-      <rect x="70" width="46" height="20" fill="#e05d44"/>
-      <rect width="116" height="20" fill="url(#s)"/>
+      <rect width="65" height="20" fill="#555"/>
+      <rect x="65" width="46" height="20" fill="#e05d44"/>
+      <rect width="110" height="20" fill="url(#s)"/>
     </g>
     <g fill="#fff" font-family="Helvetica,Tahoma,Arial" font-size="110">
       <text x="55" y="140" fill="#000" fill-opacity=".3" transform="scale(.1)">
@@ -192,7 +192,7 @@ const mockedRedStatementsBadge = `
       <text x="50" y="140" transform="scale(.1)">
         Statements
       </text>
-      <text x="750" y="140" transform="scale(.1)">
+      <text x="700" y="140" transform="scale(.1)">
         30%
       </text>
     </g>

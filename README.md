@@ -58,6 +58,3 @@ or
  ![Statements](./badges/statements.svg)
  ![Branches](./badges/branches.svg)
  ![Functions](./badges/functions.svg)
-
-## TODO list
-- extend to create repository status badges
