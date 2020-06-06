@@ -2,6 +2,31 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/adam-sokolowski/badges/compare/v1.0.8...v1.1.0) (2020-06-06)
+
+
+### Documentation
+
+* **all:** udpate documentation ([da6b71b](https://github.com/adam-sokolowski/badges/commit/da6b71ba9b2ffea19d0972b1ad3e4e681701dd9e))
+
+
+### New features
+
+* **badge:** add methods for version badge ([3d82809](https://github.com/adam-sokolowski/badges/commit/3d828097f020765c04bf4a1e31cc884abae444b1))
+* **badges:** add custom badges, update documentation ([2c48c46](https://github.com/adam-sokolowski/badges/commit/2c48c4608f670ebec57753ba548c1bc1532e30a4))
+* **badges:** add version badge script ([299c053](https://github.com/adam-sokolowski/badges/commit/299c053d18bebb8d26beaf7d7870432c5d9db41a))
+
+
+### Unit tests
+
+* **badges:** update coverage badges ([cc3ed4a](https://github.com/adam-sokolowski/badges/commit/cc3ed4a9f563c844928954cd5c7753d184b188af))
+* **badges:** update spec ([38b09b8](https://github.com/adam-sokolowski/badges/commit/38b09b852a91e2f274ca274a8c6988bb59f255e4))
+
+
+### Code refactor
+
+* **all:** move badge color to main method ([7fb45a1](https://github.com/adam-sokolowski/badges/commit/7fb45a10c167698b8598753b050eb7d66505e1c4))
+
 ### [1.0.8](https://github.com/adam-sokolowski/badges/compare/v1.0.7...v1.0.8) (2020-05-26)
 
 ### [1.0.7](https://github.com/adam-sokolowski/badges/compare/v1.0.6...v1.0.7) (2020-05-18)
