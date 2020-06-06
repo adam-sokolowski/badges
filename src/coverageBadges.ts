@@ -11,13 +11,13 @@ if (!existsSync(destination)) {
   mkdirSync(destination);
 }
 
-const color = (coverage: number) =>  coverage >= 90
-    ? COLORS.green
-    : coverage >= 70
-      ? COLORS.blue
-      : coverage >= 50
-        ? COLORS.yellow
-        : COLORS.red;
+const color = (coverage: number) => coverage >= 90
+  ? COLORS.green
+  : coverage >= 70
+    ? COLORS.blue
+    : coverage >= 50
+      ? COLORS.yellow
+      : COLORS.red;
 
 function coverageBadges(coveragePath: string, badgesPath: string) {
   readJson(coveragePath, 'total')
@@ -37,6 +37,7 @@ function coverageBadges(coveragePath: string, badgesPath: string) {
           color(coverage),
           upperFirst(toString(key))
         );
+
         writeFile(`${badgesPath}/${toString(key)}.svg`, badge, logger);
       })
     });

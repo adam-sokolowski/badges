@@ -1,0 +1,18 @@
+{
+  "badges": [
+    {
+      "npm": {
+        "value": "1.0.0-alpha",
+        "label": "version",
+        "color": "#f0f"
+      }
+    },
+    {
+      "dependencies": {
+        "label": "Dependencies",
+        "value": "up to date",
+        "color": "#0099cb"
+      }
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 import { get } from 'lodash';
 import { readFile } from 'fs';
 
-export function readJson(path: string, property: string): Promise<string> {
+export function readJson(path: string, property?: string): Promise<string> {
   return new Promise((resolve, reject) => {
     readFile(path, 'utf-8', (error, data) => {
       if (error) {
@@ -15,7 +15,8 @@ export function readJson(path: string, property: string): Promise<string> {
 
         return reject(error);
       }
-      const value = get(JSON.parse(data), property);
+      const jsonContent = JSON.parse(data);
+      const value = property ? get(jsonContent, property) : jsonContent;
       return resolve(value);
     });
   });

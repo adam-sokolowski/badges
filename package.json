@@ -31,6 +31,7 @@
     "build:watch": "yarn build -w",
     "test": "jest --coverage",
     "coverage-badges": "yarn node ./bin/coverage-badges --save=badges",
+    "custom-badges": "yarn node ./bin/custom-badges --save=badges",
     "version-badge": "yarn node ./bin/version-badge --save=badges",
     "test:watch": "jest --watchAll",
     "lint": "tsc --noEmit && eslint '*/**/*.ts' --quiet --fix",

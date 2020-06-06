@@ -4,7 +4,6 @@ import { get } from 'lodash';
 import { generateBadge, logger, readJson } from './helpers';
 import { COLORS } from './helpers/colors.const';
 
-const source = get(argv, 'read', 'package.json') as string;
 const destination = get(argv, 'save', 'coverage') as string;
 
 if (!existsSync(destination)) {
@@ -14,6 +13,7 @@ if (!existsSync(destination)) {
 function versionBadge(versionPath: string, badgePath: string, ) {
   readJson(versionPath, 'version')
     .then(packageVersion => {
+
       const versionBadge = generateBadge(
         `${packageVersion}`,
         COLORS.blue,
@@ -26,4 +26,4 @@ function versionBadge(versionPath: string, badgePath: string, ) {
     });
 }
 
-versionBadge(source, destination);
+versionBadge('package.json', destination);
