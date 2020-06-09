@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/adam-sokolowski/badges/compare/v1.1.0...v1.1.1) (2020-06-09)
+
+
+### Bug fixes
+
+* **all:** add missing binary commands ([d283728](https://github.com/adam-sokolowski/badges/commit/d2837287b6ff0a13039ebea6e5ef0ad7ad06830e))
+
 ## [1.1.0](https://github.com/adam-sokolowski/badges/compare/v1.0.8...v1.1.0) (2020-06-06)
 
 
