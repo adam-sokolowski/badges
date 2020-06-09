@@ -31,7 +31,7 @@ A config file must be present and pointed to when executing `custom-badges` comm
   "badges": [
     {
       "badge_name": {
-        "label": "Badge labell",
+        "label": "Badge label",
         "value": "value to show",
         "color": "hexadecimal color for value background"
       }

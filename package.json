@@ -24,7 +24,9 @@
     "badges"
   ],
   "bin": {
-    "coverage-badges": "./bin/coverage-badges"
+    "coverage-badges": "./bin/coverage-badges",
+    "version-badge": "./bin/version-badge",
+    "custom-badges": "./bin/custom-badges"
   },
   "scripts": {
     "build": "tsc --module commonjs",
