@@ -34,7 +34,7 @@
     "source:test": "jest --coverage",
     "source:test:watch": "jest --watchAll",
     "source:lint": "tsc --noEmit && eslint '*/**/*.ts' --quiet --fix",
-    "package:release:patch": "yarn coverage-badges && standard-version --release-as patch",
+    "package:release:patch": "yarn badges:coverage && standard-version --release-as patch",
     "package:release:minor": "standard-version --release-as minor",
     "package:githooks:reset": "rm -rf ./.git/hooks/* && rm -rf node_modules/husky && yarn install --check-files",
     "badges:coverage": "yarn node ./bin/coverage-badges --save=badges",
