@@ -1,10 +1,7 @@
-# Repository badges generator
-For a SVG repository badges.
+# SVG badges generator for your repository
 Module installs the following binary commands:
 > `coverage-badges` - Jest test coverage badges from `coverage-summary.json` (options: **--read**, **--save**)
-
-> `custom-badges` - Fully configurable badges from `badges.json` (options: **--read**, **--save**)
-
+> `custom-badges` - Configurable badges from `badges.json` (options: **--read**, **--save**)
 > `version-badge` - Package version badge from `package.json` (options: **--save**)
 
 ## Installation:
@@ -60,16 +57,6 @@ A config file must be present and pointed to when executing `custom-badges` comm
 ## Parameters (optional)
 - `read` : alternative location of `JSON` file (`coverage-summary.json` or `badges.json`)
 - `save` : custom path to save badge svg files
-
-#### shell
-`node node_modules/@adso-ts/badges`
-
-or
-> yarn coverage-badges
-
-> yarn custom-badges
-
-> yarn version-badge
 
 ## Usage in markdown files
 ### Jest test coverage
