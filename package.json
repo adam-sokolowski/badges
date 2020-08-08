@@ -70,7 +70,7 @@
     "typescript": "~3.9.0",
     "yargs": "~15.4.0"
   },
-  "dependencies": {
+  "resolutions": {
     "dot-prop": "^5.2.0"
   }
 }
