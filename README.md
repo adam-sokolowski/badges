@@ -1,8 +1,9 @@
 # SVG badges generator for your repository
 Module installs the following binary commands:
-> `coverage-badges` - Jest test coverage badges from `coverage-summary.json` (options: **--read**, **--save**)
-> `custom-badges` - Configurable badges from `badges.json` (options: **--read**, **--save**)
-> `version-badge` - Package version badge from `package.json` (options: **--save**)
+
+- `coverage-badges` - Jest test coverage badges from `coverage-summary.json` (options: **--read**, **--save**)
+- `custom-badges` - Configurable badges from `badges.json` (options: **--read**, **--save**)
+- `version-badge` - Package version badge from `package.json` (options: **--save**)
 
 ## Installation:
 
