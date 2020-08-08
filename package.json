@@ -44,10 +44,10 @@
   "husky": {
     "hooks": {
       "pre-commit": [
-        "yarn lint"
+        "yarn source:lint"
       ],
       "pre-push": [
-        "yarn test"
+        "yarn source:test"
       ]
     }
   },
