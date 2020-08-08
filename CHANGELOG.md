@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.2](https://github.com/adam-sokolowski/badges/compare/v1.1.1...v1.1.2) (2020-08-08)
+
+
+### Documentation
+
+* **all:** fix commands formatting ([31629b6](https://github.com/adam-sokolowski/badges/commit/31629b656dcd13c60fb97b22ee0f94bc5c39ad87))
+* **all:** update main readme ([63977be](https://github.com/adam-sokolowski/badges/commit/63977be911a0417d0d364a1eaf59427505f02243))
+
+
+### Bug fixes
+
+* **packages:** update command name ([7608ea0](https://github.com/adam-sokolowski/badges/commit/7608ea0535f0395feea57fc83cbd2babefa87cd9))
+
 ### [1.1.1](https://github.com/adam-sokolowski/badges/compare/v1.1.0...v1.1.1) (2020-06-09)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "@adso-ts/badges",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Jest coverage badges generator",
   "repository": {
     "type": "git",
@@ -39,7 +39,7 @@
     "package:githooks:reset": "rm -rf ./.git/hooks/* && rm -rf node_modules/husky && yarn install --check-files",
     "badges:coverage": "yarn node ./bin/coverage-badges --save=badges",
     "badges:custom": "yarn node ./bin/custom-badges --save=badges",
-    "badges:version": "yarn node ./bin/version-badge --save=badges" 
+    "badges:version": "yarn node ./bin/version-badge --save=badges"
   },
   "husky": {
     "hooks": {
