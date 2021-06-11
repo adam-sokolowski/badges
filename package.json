@@ -63,7 +63,7 @@
     "eslint": "~7.7.0",
     "husky": "~4.2.5",
     "jest": "~26.4.0",
-    "lodash": "4.17.20",
+    "lodash": "4.17.21",
     "standard-version": "~9.0.0",
     "ts-jest": "~26.3.0",
     "tslib": "~2.0.0",
